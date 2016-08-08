@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <title>Gross Energy Group - PMS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description." content="" />
+
+	<!-- google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,500,600,800,700,300,200,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css">
+	<!-- google fonts -->
+
+
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link href="css/sidebar.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script><!-- jquery -->
+    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script><!-- data table -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="https://use.fontawesome.com/610b1da922.js"></script>
+  	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+          <p class="inner_logo"><img src="images/logo.png" alt="logo" width="" height="40" /></p>
+            <p class="log_out"><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>გასვლა</a></p>
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="project_typ_cat.html">პროექტის ტიპი/კატეგორია</a>
+                </li>
+                <li>
+                    <a href="project.html">პროექტი</a>
+                </li>
+                <li>
+                    <a href="project_goal.html">პროექტის ამოცანები</a>
+                </li>
+                 <li>
+                    <a href="chart.html">ჩარტი</a>
+                </li>
+               <!-- <li>
+                    <a href="physical.html">ფიზიკური პირები</a>
+                </li>
+                <li>
+                    <a href="juridical_part.html">იურიუდიული ნაწილი</a>
+                </li>
+                <li>
+                    <a href="user.html">მომხმარებლები</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+                      <a href="#" class="lang_selector">ქართული</a>
+                      <a href="#" class="lang_selector">English</a>
+                        <h2 class="page_title">პროექტის ამოცანები</h2>
+                            <p class="media-text">
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>დასახელება</td>
+                                        <td>რაღაცა ჰესი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>შემსრულებელი</td>
+                                        <td>შემსრულებლის სახელი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დაწყების თარიღი</td>
+                                        <td>22 ივლისი 2015 წელი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დასრულების თარიღი</td>
+                                        <td>32 მარტი 2018 წელი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დოკუმენტები</td>
+                                        <td><a href="#">ფაილი 1</a> <a href="#">ფაილი 2</a> <a href="#">ფაილი 3</a> <a href="#">ფაილი 4</a></td>
+                                      </tr>
+                                      <tr>
+                                        <td>სტატუსი</td>
+                                        <td>მიმდინარე</td>
+                                      </tr>
+                                      <tr>
+                                        <td>ამოცანის შესრულების დამმოწმებელი</td>
+                                        <td>სახელი გვარი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დამატებითი ატრიბუტები</td>
+                                        <td>ატრიბუტების ჩამონათვალი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>ამოცანასთან დაკავშირებული საჯარო ჩანაწერები</td>
+                                        <td><a href="#">ფაილი 1</a> <a href="#">ფაილი 2</a> <a href="#">ფაილი 3</a> <a href="#">ფაილი 4</a></td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </p><!-- media text -->
+                          </div>
+                        </div><!-- end block media -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+    </div>
+    <!-- /#wrapper -->
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>

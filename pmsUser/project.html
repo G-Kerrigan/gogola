@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <title>Gross Energy Group - PMS</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="generator" content="" />
+    <meta name="author" content="" />
+    <meta name="keywords" content="" />
+    <meta name="description." content="" />
+
+
+	<!-- google fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Catamaran:400,500,600,800,700,300,200,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="//cdn.web-fonts.ge/fonts/bpg-arial/css/bpg-arial.min.css">
+	<!-- google fonts -->
+
+
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+    <link href="css/sidebar.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+
+
+    <script src="https://code.jquery.com/jquery-3.0.0.min.js" integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI=" crossorigin="anonymous"></script><!-- jquery -->
+    <script src="https://cdn.datatables.net/1.10.11/js/jquery.dataTables.min.js"></script><!-- data table -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  	<script src="https://use.fontawesome.com/610b1da922.js"></script>
+  	<script src='https://www.google.com/recaptcha/api.js'></script>
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- bootstrap -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<!-- bootstrap -->
+
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+        <!-- Sidebar -->
+        <div id="sidebar-wrapper">
+          <p class="inner_logo"><img src="images/logo.png" alt="logo" width="" height="40" /></p>
+            <p class="log_out"><a href="#"><i class="fa fa-sign-out" aria-hidden="true"></i>გასვლა</a></p>
+            <ul class="sidebar-nav">
+                <li>
+                    <a href="project_typ_cat.html">პროექტის ტიპი/კატეგორია</a>
+                </li>
+                <li>
+                    <a href="project.html">პროექტი</a>
+                </li>
+                <li>
+                    <a href="project_goal.html">პროექტის ამოცანები</a>
+                </li>
+                 <li>
+                    <a href="chart.html">ჩარტი</a>
+                </li>
+                <!--<li>
+                    <a href="physical.html">ფიზიკური პირები</a>
+                </li> -->
+                <!-- <li>
+                    <a href="juridical_part.html">იურიუდიული ნაწილი</a>
+                </li> -->
+                <!-- <li>
+                    <a href="user.html">მომხმარებლები</a>
+                </li> -->
+            </ul>
+        </div>
+        <!-- /#sidebar-wrapper -->
+
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-12">
+                    	<a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menu</a>
+                      	<a href="#" class="lang_selector">ქართული</a>
+                      	<a href="#" class="lang_selector">English</a>
+
+                      	<h2 class="page_title">პროექტი</h2>
+
+						  <ul class="nav nav-tabs">
+						    <li class="active"><a data-toggle="tab" href="#home">ზოგადი ინფორმაცია</a></li>
+						    <li><a data-toggle="tab" href="#menu1">პროექტის დოკუმენტები</a></li>
+						  </ul>
+							  <div class="tab-content">
+							    <div id="home" class="tab-pane fade in active">
+							      <h3>პროექტის ზოგადი ინფორმაცია</h3>
+								      <div class="media">
+					                          <div class="media-body">
+					                            <p class="media-text">
+					                                <table class="table table-striped">
+					                                    <tbody>
+					                                      <tr>
+					                                        <td>პროექტი</td>
+					                                        <td>რაღაცა ჰესი</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>სტატუსი</td>
+					                                        <td>მიმდინარე</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>ადგილი</td>
+					                                        <td>საქართველო</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>მდინარე</td>
+					                                        <td>მტკვარი</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>ზედა ნიშნული</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>ქვედა ნიშნული</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>კოორდინატი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>სიმძლავრე</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>გამომუშავება</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>ჰესის ტიპი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>კაშხლის ტიპი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>დერივაცია</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>ტურბინის ტიპი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>დაწნევა</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>წყლის ხარჯი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>საორიენტ. ფასი</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>პრეზენტაცია</td>
+					                                        <td>402</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>პროექტის ტიპი/კატეგორია</td>
+					                                        <td>რთული ტიპის / ელექტრული</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>შესასრულებელი სამუშაო</td>
+					                                        <td>უნდა ავაშენოთ</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>საინვესტიციო ღირებულება</td>
+					                                        <td>9 542 698 ₾</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>სამუშაოს ღირებულება</td>
+					                                        <td>2 365 475 ₾</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>პროექტის მენეჯერი შემსრულებლის მხრიდან</td>
+					                                        <td>კაი კაცი</td>
+					                                      </tr>
+					                                      <tr>
+					                                        <td>პროექტის ხელმძღვანელი </td>
+					                                        <td>უფრო კაი კაცი</td>
+					                                      </tr>
+					                                    </tbody>
+					                                  </table>
+					                            </p><!-- media text -->
+					                          </div>
+					                        </div><!-- end block media -->
+								    </div><!-- End TAB -->
+							    <div id="menu1" class="tab-pane fade">
+							      <h3>პროექტის დოკუმენტები</h3>
+							      <div class="media">
+				                          <div class="media-body">
+				                            <p class="media-text">
+				                                <table class="table table-striped">
+				                                    <tbody>
+				                                      <tr>
+				                                        <td>მომდინარე სამუშაოების რეპორტი</td>
+				                                        <td><a href="#!">იხილით ფაილი</a></td>
+				                                      </tr>
+				                                       <tr>
+				                                        <td>შესრულებული სამუშაოების რეპორტი</td>
+				                                        <td><a href="#!">იხილით ფაილი</a></td>
+				                                      </tr>
+				                                    </tbody>
+				                                  </table>
+				                            </p>
+				                          </div>
+				                        </div><!-- end block -->
+							    </div><!-- End TAB -->
+							  </div><!-- Main Block (All) -->
+
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის მიზანი</h4>
+                            <p class="media-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+                          </div>
+                        </div><!-- end block -->
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის მოკლე აღწერა</h4>
+                            <p class="media-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+                          </div>
+                        </div><!-- end block -->
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის განვითარების ეტაპები</h4>
+                            <p class="media-text">
+                              
+
+                                  <ul class="nav nav-tabs">
+                                    <li class="active"><a data-toggle="tab" href="#dev1">პირველი ეტაპი</a></li>
+                                    <li><a data-toggle="tab" href="#dev2">მეორე ეტაპი</a></li>
+                                    <li><a data-toggle="tab" href="#dev3">მესამე ეტაპი</a></li>
+                                    <li><a data-toggle="tab" href="#dev4">მეოთხე ეტაპი</a></li>
+                                  </ul>
+
+                                  <div class="tab-content">
+                                    <div id="dev1" class="tab-pane fade in active">
+                                      <table class="table table-striped">
+                                        <tbody>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>გაკეთდა საძირკველი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>აშენდა კაშხალი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>ჩაუტარდა რეკონსტრუქცია</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div id="dev2" class="tab-pane fade">
+                                      <table class="table table-striped">
+                                        <tbody>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>გაკეთდა საძირკველი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>აშენდა კაშხალი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>ჩაუტარდა რეკონსტრუქცია</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div id="dev3" class="tab-pane fade">
+                                      <table class="table table-striped">
+                                        <tbody>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>გაკეთდა საძირკველი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>აშენდა კაშხალი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>ჩაუტარდა რეკონსტრუქცია</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                    <div id="dev4" class="tab-pane fade">
+                                      <table class="table table-striped">
+                                        <tbody>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>გაკეთდა საძირკველი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>აშენდა კაშხალი</td>
+                                          </tr>
+                                          <tr>
+                                            <td>28/25/2016</td>
+                                            <td>ჩაუტარდა რეკონსტრუქცია</td>
+                                          </tr>
+                                        </tbody>
+                                      </table>
+                                    </div>
+                                  </div><!-- End Tab Cont -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+     
+                            </p><!-- end development P -->
+                          </div>
+                        </div><!-- end block -->
+
+
+                         <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">ვადები</h4>
+                            <p class="media-text">
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>დაწყების თარიღი</td>
+                                        <td>25 აგვისტო, 2016 წელი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დამთავრების თარიღი</td>
+                                        <td>26 ივლისი, 2017 წელი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>სალიცენზიო შეზღუდვები </td>
+                                        <td>შეზღუდვების გარეშე</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </p>
+                          </div>
+                        </div><!-- end block -->
+
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის განხორციელებისათვის გამოყოფილი რესურსები</h4>
+                            <p class="media-text">
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>ქვეკონტრაქტორები</td>
+                                        <td>პარტნიორი ფირმების ჩამონათვალი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>გამოყოფილი რესურსები</td>
+                                        <td>გამოყოფილი რესურსების ჩამონათვალი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>ადგილობრივი კადრები</td>
+                                        <td>ადგილობრივი კადრების ჩამონათვალი</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </p>
+                          </div>
+                        </div><!-- end block -->
+
+                          <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">დამკვეთი</h4>
+                            <p class="media-text">
+                                <table class="table table-striped">
+                                    <tbody>
+                                      <tr>
+                                        <td>დამკვეთი პირი</td>
+                                        <td>დამკვეთის სახელი და გვარი</td>
+                                      </tr>
+                                      <tr>
+                                        <td>დამკვეთი პირის წარმომადგენელი</td>
+                                        <td>წარმომადგენელი</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </p>
+                          </div>
+                        </div><!-- end block -->
+
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის განხორციელებაში დაინტერესებული სხვა პირები </h4>
+                            <p class="media-text">
+                                <ul class = "list-group">
+                                   <li class = "list-group-item">სახელი და გვარი</li>
+                                   <li class = "list-group-item">სახელი და გვარი</li>
+                                   <li class = "list-group-item">სახელი და გვარი</li>
+                                   <li class = "list-group-item">სახელი და გვარი</li>
+                                   <li class = "list-group-item">სახელი და გვარი</li>
+                                </ul>
+                            </p>
+                          </div>
+                        </div><!-- end block -->
+
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის რისკები</h4>
+                            <p class="media-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+                          </div>
+                        </div><!-- end block -->
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის შეზღუდვები</h4>
+                            <p class="media-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+                          </div>
+                        </div><!-- end block -->
+                        <div class="media">
+                          <div class="media-body">
+                            <h4 class="media-heading">პროექტის ვარაუდები</h4>
+                            <p class="media-text">საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა. საბეჭდი და ტიპოგრაფიული ინდუსტრიის უშინაარსო ტექსტია. იგი სტანდარტად 1500-იანი წლებიდან იქცა, როდესაც უცნობმა მბეჭდავმა ამწყობ დაზგაზე წიგნის საცდელი ეგზემპლარი დაბეჭდა.</p>
+                          </div>
+                        </div><!-- end block -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
+
+    </div>
+    <!-- /#wrapper -->
+
+
+    <!-- Menu Toggle Script -->
+    <script>
+    $("#menu-toggle").click(function(e) {
+        e.preventDefault();
+        $("#wrapper").toggleClass("toggled");
+    });
+    </script>
+
+</body>
+
+</html>
