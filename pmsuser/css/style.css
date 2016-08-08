@@ -26,10 +26,13 @@ body{
 	width:250px;
 }
 
-.log_out{
+.log_out, .username{
 
 	text-align:center;
 	width:250px;
+  color:#fff;
+  font-size:13px;
+  font-weight:100;
 }
 
 .log_out a{
