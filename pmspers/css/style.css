@@ -68,11 +68,26 @@ h3{
 
 .media-heading{
 	color:#537CFC;
-	margin-top:20px;
+	margin-top:20px !important;
 }
 
 .media-text{
 	padding:5px 5px 5px 20px;
+  margin-top:10px;
+}
+
+.addedit{
+  opacity: 0.5;
+  transition:0.3s;
+}
+
+.addedit:hover{
+  opacity: 1;
+  transition:0.3s;
+}
+
+.addeditbtn{
+  margin-top:15px;
 }
 
 
@@ -135,10 +150,14 @@ h3{
   display:none;
 }
 
-#menu1 #project_info .form-control{
+#menu1 .form-control{
   margin-bottom:20px;
 }
 
+.media .file_upld .form-control{
+
+  margin-bottom:0 !important;
+}
 
 
 
